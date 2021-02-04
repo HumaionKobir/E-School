@@ -1,0 +1,243 @@
+body{
+    font-family: Poppins, sans-serif;
+}
+/*--------------------------- Nevber section Start ------------------------------*/
+.first-section{
+    padding-top: 10px;
+    
+}
+.navbar{
+    margin-bottom: 50px;
+}
+.navbar img{
+    width: 198px;
+    height: 59px;
+}
+.link-button{
+    width: 104px;
+    left: 1201px;
+    top: 25px;
+    background: #21B573;
+    border-radius: 33px;
+    border: none;
+    color: white;
+}
+.space{
+    margin-left: 30px;
+}
+/*--------------------------- Nevber section End ------------------------------*/
+
+/*--------------------------- Hd-Second section Start ------------------------------*/
+.color-highlight{
+    color: green;
+}
+h1{
+    font-weight: bold !important;
+}
+.link-button2{
+    width: 153px;
+    height: 43px;
+    border: none;
+    border-radius: 33px;
+    background-color: #21B573;
+    color: white;
+    margin-top: 10px;
+}
+
+.image1 img{
+    width: 100%;
+    height: 346px;
+    margin-left: 90px;
+    padding-right: 130px;
+}
+.header-section{
+    height: 576px;
+    background: #F0FFF0;
+}
+/*--------------------------- Hd-Second section End ------------------------------*/
+
+
+/*--------------------------- Third section Start ------------------------------*/
+.third-section{
+    display: flex;
+    
+}
+.logo img{
+    width: 80px;
+    height: 83px;
+    padding-bottom:10px ;  
+}
+.learn-section{
+    border: none;
+    width: 100%;
+    height: 270px;
+    background-color: #F8FFFB;
+    margin-top: 100px;
+    box-shadow: 10px 10px 10px lightgray;
+    border-top-left-radius: 33px;
+    border-bottom-right-radius: 33px;
+    
+}
+.learn-section:hover{
+    background-color: rgb(68, 220, 240);
+    box-shadow: 10px 10px 10px gray;
+    border-top-left-radius: 33px;
+    border-bottom-right-radius: 33px;
+} 
+.logo, .text{
+    text-align: center;
+}
+.collum{
+    flex-direction: column;
+}
+/*--------------------------- Third section End ------------------------------*/
+
+
+/*--------------------------- Fourth section Start ------------------------------*/
+#online-courses h4{
+    text-align: center;
+    color: #413960;
+    margin-top: 98px;
+}
+.container .card-style{
+    border: none;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 18px;
+    
+}
+.bg-orange{
+    height: 8px;
+    width: 130px;
+    display: block;
+    margin: 10px auto 30px;
+    background-image: linear-gradient(380deg, #ff3589, #e8ff19);
+    border-radius: 5px;
+}
+.fourth-section{
+    margin-top: 62px;
+    
+}
+.fourth-section, .container-style{
+    display: flex;
+    gap: 50px;
+}
+.card-style{
+    width: 385px;
+    height: 500px;
+}
+.card img{
+    width: 90%;
+    height: 234px;
+    margin: 24px 20px;
+}
+.link-button3{
+    border: none;
+    background-color: #21B573;
+    color: white;
+    border-radius: 33px;
+    width: 137px;
+    height: 35px;
+}
+.cd-footer img{
+    width: 17px;
+    height: 17px;
+}
+.cd-footer small{
+    margin-left: 0px;
+}
+/*
+.card-footer{
+    background-color: white !important;
+    border: none !important;
+}*/
+/*--------------------------- Fourth section End ------------------------------*/
+
+
+/*--------------------------- section Five Start ------------------------------*/
+#testimonial h4{
+    text-align: center;
+    color: #413960;
+    margin-top: 98px;
+}
+.bg-orange2{
+    height: 8px;
+    width: 130px;
+    display: block;
+    margin: 10px auto 30px;
+    background-image: linear-gradient(380deg, #3549ff, #ff19a7);
+    border-radius: 5px;
+}
+.section-five{
+    margin-top: 76px;
+}
+.section-five img{
+    width: 120px;
+    height: 120px;
+}
+.man{
+    padding-left: 280px !important;
+}
+
+.text2 p{
+    padding-right: 300px;
+    margin-left: 30px;
+}
+/*--------------------------- section Five End ------------------------------*/
+
+
+/*--------------------------- Footer section Start ------------------------------*/
+.footer-area{
+    width: 100%;
+    height: 400px;
+    margin-top: 127px;
+    padding: 55px 143px;
+    background: #282531;
+    color: white;
+}
+
+.footer-end{
+    text-align: center;
+    margin-top: 80px;
+}
+.text3 p{
+    padding-right: 126px;
+}
+/*--------------------------- Footer section End ------------------------------*/
+
+/*--------------------------- Media section Start ------------------------------*/
+
+@media (max-width: 760px){
+    .container{
+        flex-wrap: wrap;
+        
+    }
+    .fourth-section{
+        margin-left: 80px;
+        
+    }
+    .card-style{
+        width: 385px;
+        height: 550px;
+    }
+    .learn-section{
+        margin-top: 120px;
+    }
+}
+@media (max-width: 1200px){
+    .container{
+        flex-wrap: wrap;
+    }
+    .fourth-section{
+        margin-left: 100px;
+        
+    }
+    .footer-area{
+        width: 100%;
+        height: 600px;
+    }
+    .learn-section{
+        margin-top: 120px;
+    }
+    
+}
+/*--------------------------- Media section End ------------------------------*/
